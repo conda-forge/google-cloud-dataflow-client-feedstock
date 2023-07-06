@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataflow-client" %}
-{% set version = "0.8.3" %}
+{% set version = "0.8.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataflow-client-{{ version }}.tar.gz
-  sha256: 62b64a0689a8372b176899b7722b90f5d3a354696555a64a360d56efbc1486ba
+  sha256: 638a7a97cefa0f1f1918eb1403e2c34f9efe748d71787f7d668fd15993b92400
 
 build:
   noarch: python

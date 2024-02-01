@@ -3,7 +3,7 @@ About google-cloud-dataflow-client-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-dataflow-client-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-dataflow-client
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-dataflow-client
 
 Package license: Apache-2.0
 

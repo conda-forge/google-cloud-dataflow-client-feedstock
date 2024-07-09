@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataflow-client" %}
-{% set version = "0.8.10" %}
+{% set version = "0.8.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataflow-client-{{ version }}.tar.gz
-  sha256: 6aa8178743bce4b6c9142b492e649db84f55db70a88ec29a3d889054c4752144
+  sha256: ae813634762d1dd78c457272b6d1dd5f8da0540a3b68d50118fbc50ae05e8e67
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - google-api-core-grpc
     - google-auth >=2.14.1,<3.0.0dev,!=2.24.0,!=2.25.0
     - proto-plus >=1.22.3,<2.0.0dev
-    - protobuf >=3.19.5,<5.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
+    - protobuf >=3.20.2,<6.0.0dev,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
 
 test:
   imports:

@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Dataflow Client API client library
 
-Development: https://github.com/googleapis/python-dataflow-client
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-dataflow-client
 
 Current build status
 ====================

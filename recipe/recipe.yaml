@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-dataflow-client
-  version: "0.12.0"
+  version: "0.13.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_dataflow_client-${{ version }}.tar.gz
-  sha256: 55d09d411761bf5a66c713cd688bd1d16a2f89d5ef06dfad8cc2e2347dd5fdf6
+  sha256: ee3bd6eaae0732b38d93e7c246d3580fd81809462d8dfa2e87550a5bd1fa2936
 
 build:
   number: 0
